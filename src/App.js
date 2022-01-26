@@ -1,17 +1,6 @@
-import { useState } from 'react'
-import styles from './App.module.css'
-import WeatherForecast from './components/WeatherForecast'
-import WeatherForm from './components/WeatherForm'
+import React from 'react'
 
 function App() {
-	const [location, setLocation] = useState('')
-
-	return (
-		<div className={styles.App}>
-			<WeatherForm location={location} setLocation={setLocation} />
-			<WeatherForecast />
-		</div>
-	)
+	return <div></div>
 }
-
 export default App
