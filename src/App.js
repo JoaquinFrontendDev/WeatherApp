@@ -28,7 +28,11 @@ function App() {
 				handleSubmit={handleSubmit}
 				forecast={forecasts}
 			/>
-			<Forecast forecasts={forecasts} loading={loading} />
+			<Forecast
+				forecasts={forecasts}
+				setForecasts={setForecasts}
+				loading={loading}
+			/>
 		</div>
 	)
 }

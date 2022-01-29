@@ -2,8 +2,8 @@ import React from 'react'
 
 const WeatherForm = ({ location, setLocation, handleSubmit }) => {
 	return (
-		<div className='max-w-full h-52 flex flex-col justify-center items-center'>
-			<h1 className='text-gray-800 font-bold text-5xl py-12'>
+		<div className='max-w-full h-full flex flex-col justify-center items-center'>
+			<h1 className='text-gray-800 font-bold text-6xl lg:text-7xl py-12 px-auto text-center'>
 				Weather Forecast
 			</h1>
 			<div className='w-full h-52 flex flex-wrap gap-12 justify-center items-center'>
@@ -11,13 +11,13 @@ const WeatherForm = ({ location, setLocation, handleSubmit }) => {
 					type='text'
 					placeholder='Location'
 					value={location}
-					className='lg:w-80 md:w-72 p-2 rounded-md text-xl'
+					className='lg:w-80 md:w-72 py-2 px-6 rounded-md text-xl'
 					onChange={({ target }) => setLocation(target.value)}
 				/>
 				<button
 					type='submit'
 					onClick={handleSubmit}
-					className='bg-sky-700 hover:bg-sky-900 transition-colors text-white text-xl py-2 px-4 rounded-md font-bold'>
+					className='bg-sky-700 hover:bg-sky-900 transition-colors text-white text-xl py-2 px-6 rounded-md font-bold'>
 					Search
 				</button>
 			</div>
