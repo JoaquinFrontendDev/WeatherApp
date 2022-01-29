@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Forecast from './components/Forecast'
 import WeatherForm from './components/WeatherForm'
 import axios from 'axios'
