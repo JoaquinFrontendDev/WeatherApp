@@ -17,7 +17,7 @@ const WeatherForm = ({ location, setLocation, handleSubmit }) => {
 				<button
 					type='submit'
 					onClick={handleSubmit}
-					className='bg-sky-700 hover:bg-sky-900 transition-colors text-white text-xl py-2 px-6 rounded-md font-bold'>
+					className='bg-rose-600 hover:bg-rose-700 transition-colors text-white text-xl py-2 px-6 rounded-md font-bold'>
 					Search
 				</button>
 			</div>

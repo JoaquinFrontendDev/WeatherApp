@@ -18,7 +18,7 @@ const ForecastItem = ({ forecast, setForecasts }) => {
 				color = 'text-slate-400'
 				break
 			case 'Rain':
-				icon = 'fa-cloud-shower-heavy'
+				icon = 'fa-cloud-showers-heavy'
 				color = 'text-slate-400'
 				break
 			case 'Snow':
